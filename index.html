@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/69c4c41537.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <section>
+   <div class="header-section">
+      <div class="container top-nav">
+         <div class="d-flex justify-content-between align-items-center">
+         <div>
+            <div class="icons py-3  ">
+               <a class="m-2" href=""><i class="fa-brands fa-twitter fs-3 text-light"></i></a>
+               <a class="m-2" href=""><i class="fa-brands fa-facebook fs-3 text-light"></i></a>
+               <a class="m-2" href=""><i class="fa-brands fa-youtube fs-3 text-light"></i></a>
+               <a class="m-2" href=""><i class="fa-brands fa-linkedin fs-3 text-light"></i></a>
+               <a class="m-2" href=""><i class="fa-brands fa-google-plus-g fs-3 text-light"></i></a>
+               <a class="m-2" href=""><i class="fa-solid rss fs-3 text-light"></i></a>
+            </div>
+         </div>
+         <div class="search-bar d-flex align-items-center justify-content-between">
+            <input type="search" class="form-control me-2 rounded-pill search-bar" placeholder="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+         </div>
+      </div>
+      </div>
+   </div>
+   <div class="container mid-nav d-flex justify-content-between align-items-center mt-3 mb-3">
+      <div class="logo">
+         <img src="images/logo-main.png" alt="">
+      </div>
+      <div class="contact text-end">
+         <div class="mb-3">
+         <a class="text-decoration-none me-1 mid-btn" href="">Home</a>
+         <a class="text-decoration-none me-1 mid-btn" href="">FAQ</a>
+         <a class="text-decoration-none mid-btn" href="">Contact</a>
+      </div>
+            <p class="d-inline me-3 fw-light"><i class="fa-solid fa-phone-flip fs-5 me-2"></i>Call Us: +8801798223871</p>
+            <p class="d-inline fw-light"><i class="fa-solid fa-envelope fs-5 me-2"></i><a class="text-decoration-none text-black" href="">example@contact.com</a></p>
+      </div>
+   </div>
+   <div class="navigation">
+      <nav class="container navbar navbar-expand-lg">
+         <div class="container-fluid">
+           <div class="collapse navbar-collapse" id="">
+             <ul class="navbar-nav fw-bold nav-tabs">
+               <li class="nav-item">
+                 <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Departments
+                  </a>
+                  <ul class="dropdown-menu text-center departments">
+                    <li><a class="dropdown-item" href="#">CSE</a></li>
+                    <li><a class="dropdown-item" href="#">Civil</a></li>
+                    <li><a class="dropdown-item" href="#">EEE</a></li>
+                    <li><a class="dropdown-item" href="#">Textile</a></li>
+                    <li><a class="dropdown-item" href="#">Medical</a></li>
+                  </ul>
+                </li>
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="#">News</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="#">Events</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link text-white" href="#">Contact</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </nav>
+   </div>
+</section>
+<!-- carousel start  -->
+<section>
+   <div class="carousel slide container mt-4" data-bs-ride="carousel">
+      <div class="carousel-inner rounded">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="images/carousel/slide-3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="images/carousel/slide-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="images/carousel/slide-1.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</section>
+<!-- carousel end  -->
+
+
+
+</body>
+</html>

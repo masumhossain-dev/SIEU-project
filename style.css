@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Archivo', sans-serif;
+}
+.header-section, .navigation{
+   background-color: #1ABC9C;
+}
+.icons a:hover{
+   text-shadow: 0px 0px 10px grey; 
+}
+.search-bar{
+   height: 35px;
+}
+.logo img{
+   width: 240px;
+}
+.mid-nav i, .mid-btn{
+   color: #1ABC9C;
+}
+.mid-btn{
+   border-right: 1px solid #1ABC9C;
+   padding-right: 10px;
+}
+.mid-btn:last-child{
+   border-right:0;
+   padding-right: 0;
+}
+.departments li a{
+   color:#1ABC9C;
+
+}
